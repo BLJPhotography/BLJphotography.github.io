@@ -967,6 +967,7 @@ input, select, textarea {
 				#thumbnails article .thumbnail img {
 					display: block;
 					width: 100%;
+					height:auto;
 				}
 
 				#thumbnails article .thumbnail:before {
