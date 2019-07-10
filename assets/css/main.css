@@ -174,6 +174,7 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 1.25em 0;
+		text-align: center;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -906,6 +907,7 @@ input, select, textarea {
 
 	#header {
 		padding: 3em 2.25em 1.75em 2.25em ;
+		background-color: #E0E0E0;
 	}
 
 		#header h1 {
@@ -917,6 +919,7 @@ input, select, textarea {
 
 	#footer {
 		padding: 2.25em 2.25em 1em 2.25em ;
+		background-color:  #E0E0E0
 	}
 
 		#footer .copyright {
@@ -947,6 +950,7 @@ input, select, textarea {
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
 		padding: 0 0.75em;
+		background-color:  #E0E0E0
 	}
 
 		#thumbnails article {
@@ -967,7 +971,7 @@ input, select, textarea {
 				#thumbnails article .thumbnail img {
 					display: block;
 					width: 100%;
-					height:auto;
+					height:100%;
 				}
 
 				#thumbnails article .thumbnail:before {
@@ -1100,10 +1104,6 @@ input, select, textarea {
 			}
 
 			#viewer .inner:before {
-				background-image: -moz-linear-gradient(left, rgba(16,16,16,0.2), rgba(16,16,16,0) 10em, rgba(16,16,16,0)), -moz-linear-gradient(right, rgba(16,16,16,0.2), rgba(16,16,16,0) 10em, rgba(16,16,16,0));
-				background-image: -webkit-linear-gradient(left, rgba(16,16,16,0.2), rgba(16,16,16,0) 10em, rgba(16,16,16,0)), -webkit-linear-gradient(right, rgba(16,16,16,0.2), rgba(16,16,16,0) 10em, rgba(16,16,16,0));
-				background-image: -ms-linear-gradient(left, rgba(16,16,16,0.2), rgba(16,16,16,0) 10em, rgba(16,16,16,0)), -ms-linear-gradient(right, rgba(16,16,16,0.2), rgba(16,16,16,0) 10em, rgba(16,16,16,0));
-				background-image: linear-gradient(left, rgba(16,16,16,0.2), rgba(16,16,16,0) 10em, rgba(16,16,16,0)), linear-gradient(right, rgba(16,16,16,0.2), rgba(16,16,16,0) 10em, rgba(16,16,16,0));
 				content: '';
 				display: block;
 				position: absolute;
@@ -1170,16 +1170,12 @@ input, select, textarea {
 		}
 
 			#viewer .slide .caption {
-				background-image: -moz-linear-gradient(bottom, rgba(16,16,16,0.75), rgba(16,16,16,0.25) 80%, rgba(16,16,16,0));
-				background-image: -webkit-linear-gradient(bottom, rgba(16,16,16,0.75), rgba(16,16,16,0.25) 80%, rgba(16,16,16,0));
-				background-image: -ms-linear-gradient(bottom, rgba(16,16,16,0.75), rgba(16,16,16,0.25) 80%, rgba(16,16,16,0));
-				background-image: linear-gradient(bottom, rgba(16,16,16,0.75), rgba(16,16,16,0.25) 80%, rgba(16,16,16,0));
 				padding: 2em 2em 0.75em 2em ;
 				position: absolute;
 				bottom: 0;
 				left: 0;
 				width: 100%;
-				color: rgba(255, 255, 255, 0.5);
+				background-color:  #E0E0E0;
 				z-index: 1;
 			}
 
@@ -1198,7 +1194,7 @@ input, select, textarea {
 				width: 100%;
 				height: 100%;
 				background-repeat: no-repeat;
-				background-size: cover;
+				background-size: contain;
 				opacity: 0;
 			}
 
@@ -1232,6 +1228,7 @@ input, select, textarea {
 
 			#viewer .slide.active .image {
 				opacity: 1;
+				background-color: #E0E0E0;
 			}
 
 		body.fullscreen #viewer {
@@ -1326,3 +1323,13 @@ input, select, textarea {
 				}
 
 		}
+
+.BLJ {
+	width: 93%
+}
+
+.Photo {
+	width: 103%;
+	position: relative;
+    top: -13px;
+}
