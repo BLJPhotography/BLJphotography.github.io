@@ -789,10 +789,6 @@ input, select, textarea {
 		padding-left: 0;
 	}
 
-		ul.icons li {
-			display: inline-block;
-			padding: 0 1em 0 0;
-		}
 
 			ul.icons li:last-child {
 				padding-right: 0;
@@ -1332,4 +1328,8 @@ input, select, textarea {
 	width: 103%;
 	position: relative;
     top: -13px;
+}
+
+li {
+	text-align: center;
 }
