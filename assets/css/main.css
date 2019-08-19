@@ -1224,7 +1224,7 @@ input, select, textarea {
 
 			#viewer .slide.active .image {
 				opacity: 1;
-				background-color: #E0E0E0;
+				
 			}
 
 		body.fullscreen #viewer {
