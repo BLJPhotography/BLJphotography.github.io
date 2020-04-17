@@ -1,5 +1,6 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
+@import "bourbon";
 
 /*
 	Lens by HTML5 UP
@@ -224,7 +225,6 @@ html {
 }
 
 body {
-  background-color: #fff;
   color: #aaa;
 }
 
@@ -918,7 +918,6 @@ ul.icons li .icon:before {
   top: 0;
   width: 22.5em;
   height: 100%;
-  background: #fff;
   outline: 0;
   overflow-x: hidden;
   overflow-y: auto;
@@ -965,7 +964,7 @@ body.is-preload-1 #main {
 
 @media screen and (max-width: 980px) {
   #main {
-    background: rgba(255, 255, 255, 0.925);
+    background: #101010;
   }
 
   #main .toggle {
@@ -980,7 +979,7 @@ body.is-preload-1 #main {
     -ms-transition: opacity 0.5s ease, visibility 0.5s;
     transition: opacity 0.5s ease, visibility 0.5s;
     width: 100%;
-    background: #fff;
+    background: #101010;
     text-align: center;
   }
 
@@ -1532,4 +1531,201 @@ nav ul li a:hover {
     padding-left: 12px;
     text-align: center;
   }
+}
+
+/* Compiled scss */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+}
+
+span {
+  margin: 0;
+  padding: 0;
+}
+
+.end-right {
+  margin-right: -117.5px;
+}
+
+.outline {
+  color: black;
+  -webkit-text-fill-color: transparent;
+  /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: orange;
+  font-size: 64px;
+  font-family: "Arvo", serif;
+}
+
+.orbs {
+  font-family: "Raleway", sans-serif;
+  font-weight: 100;
+  display: block;
+  font-size: 128px;
+}
+.orbs span {
+  color: red;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  text-shadow: 0 0 20px orange, 1px 1px 20px orange, 2px 2px 20px orange,
+    -1px -1px 20px orange, -2px -2px 20px orange;
+  position: absolute;
+  left: 40%;
+}
+.orbs span:first-child {
+  margin-left: -210px;
+}
+.orbs span:not(:first-child) {
+  margin-left: -35px;
+}
+
+.glow {
+  opacity: 0;
+  font-family: "Arvo", serif;
+  font-weight: 300;
+  color: orange;
+
+  font-size: 105px;
+  /* position: absolute;
+  top: 200px;
+   margin-left: -222.5px;
+  left: 40%; */
+}
+
+@media only screen and (max-width: 600px) {
+  .outline {
+    margin-right: 50%;
+  }
+  .orbs {
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    display: block;
+    font-size: 77px;
+    background-color: #101010;
+    padding-right: 7%;
+  }
+  .glow {
+    left: 76%;
+    font-size: 36px;
+    top: 170px;
+  }
+}
+
+@media all and (min-width: 1024px) and (max-width: 1480px) {
+  .outline {
+    margin-right: -50%;
+  }
+  .orbs {
+    font-family: "Raleway", sans-serif;
+    font-weight: 100;
+    display: block;
+    margin-right: -92%;
+    letter-spacing: 12px;
+    margin-top: -33%;
+    font-size: 44px;
+  }
+  .glow {
+    display: none;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  .outline {
+    position: relative;
+    left: -11%;
+    font-size: 36px;
+    top: 30px;
+  }
+  .orbs {
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    display: block;
+    font-size: 77px;
+    background-color: #101010;
+    padding-right: 4%;
+  }
+  .glow {
+    display: none;
+  }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+  .outline {
+    margin-right: 50%;
+  }
+  .orbs {
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    display: block;
+    font-size: 40px;
+    letter-spacing: 12px;
+    background-color: #101010;
+    padding-right: 4%;
+    margin-left: 80%;
+    margin-top: 23px;
+  }
+  .glow {
+    font-size: 36px;
+    display: none;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .orbs {
+    font-family: "Raleway", sans-serif;
+    font-weight: 100;
+    display: block;
+    margin-right: 15%;
+    letter-spacing: 9px;
+    margin-top: -33%;
+    font-size: 52px;
+    margin-bottom: 5%;
+  }
+  .glow {
+    position: relative;
+    left: -11%;
+    font-size: 36px;
+    top: 30px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+}
+
+.demo-content {
+  padding: 30px 20px;
+}
+.box {
+  padding: 12px 12px;
+  background-color: #fff;
+  margin-bottom: 15px;
+  max-width: 100px;
+  text-align: center;
+  font-family: "Roboto", Arial, sans-serif;
+  border: 1px solid #656d78;
+  color: #656d78;
+  position: relative;
+  box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.1);
+}
+.play {
+  color: #aab2bd;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: block;
+  width: 80px;
+  margin-bottom: 30px;
+  border-radius: 30px;
+}
+.play:hover {
+  color: #656d78;
+}
+.ion {
+  margin-right: 5px;
 }
