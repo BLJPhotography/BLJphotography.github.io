@@ -1422,7 +1422,7 @@ body.is-preload-2 #viewer .slide {
 
 .BLJ {
   width: 41%;
-  border-radius: 60px;
+  border-radius: 100px;
 }
 
 .Photo {
@@ -1697,7 +1697,7 @@ span {
     font-family: "Raleway", sans-serif;
     font-weight: 100;
     display: block;
-    margin-right: 3%;
+    margin-right: 6%;
     letter-spacing: 8px;
     margin-top: -28%;
     font-size: 4rem;
