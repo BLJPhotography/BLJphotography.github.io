@@ -1068,6 +1068,7 @@ body.is-preload-1 #main {
   outline: 0;
   margin: 10px;
   overflow: hidden;
+  background-color: black;
 }
 
 #thumbnails article .thumbnail img {
@@ -1420,7 +1421,7 @@ body.is-preload-2 #viewer .slide {
 }
 
 .BLJ {
-  width: 50%;
+  width: 35%;
 }
 
 .Photo {
@@ -1529,6 +1530,6 @@ nav ul li a:hover {
   }
   nav ul li a {
     padding-left: 12px;
-    text-align: left;
+    text-align: center;
   }
 }
