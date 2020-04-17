@@ -665,8 +665,6 @@ $orbs.velocity(
 var orb = 0;
 var numOrbs = $orbs.length;
 
-$(".end-left").velocity({ left: "70%" }, "easeOutExpo", 1200);
-
 dropOrbs = function () {
   $orbs
     .eq(orb)
@@ -685,24 +683,12 @@ dropOrbs = function () {
 
 // Tests
 
-function withAnimate() {
-  $("#with-jquery").animate(
-    {
-      left: "500px",
-    },
-    {
-      duration: 3000,
-      easing: "linear",
-    }
-  );
-}
-
 $("#play-jquery").on("click", function () {
   withAnimate();
 });
 
 function withVelocity() {
-  $(".end-left").velocity({ left: "70%" }, "easeOutExpo", 1200);
+  $(".end-left").velocity({ left: "auto", top: "35%" }, "easeOutExpo", 1200);
   $(".orbs span").velocity(
     { top: "-300px", scaleX: ".2", scaleY: ".2", color: "#990000" },
     0
@@ -712,7 +698,7 @@ function withVelocity() {
   $(".orbs span").css("position", "relative");
   orb = orb + 1;
   if (orb < numOrbs) {
-    setTimeout(dropOrbs, 100);
+    setTimeout(dropOrbs, 200);
   } else {
     setTimeout(function () {
       $(".glow").velocity({ opacity: 1 }, 1200);

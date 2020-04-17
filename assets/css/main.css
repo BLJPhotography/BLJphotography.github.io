@@ -1421,7 +1421,8 @@ body.is-preload-2 #viewer .slide {
 }
 
 .BLJ {
-  width: 35%;
+  width: 41%;
+  border-radius: 60px;
 }
 
 .Photo {
@@ -1548,6 +1549,17 @@ span {
   padding: 0;
 }
 
+.end-left {
+  position: relative;
+  left: 40%;
+  color: black;
+  -webkit-text-fill-color: transparent;
+  /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: orange;
+  font-size: 64px;
+  font-family: "Arvo", serif;
+}
 .end-right {
   margin-right: -117.5px;
 }
@@ -1633,6 +1645,10 @@ span {
   .glow {
     display: none;
   }
+  .BLJ {
+    margin: 4.5rem;
+    margin-bottom: 0;
+  }
 }
 
 @media all and (min-width: 768px) and (max-width: 1024px) {
@@ -1682,14 +1698,14 @@ span {
     font-weight: 100;
     display: block;
     margin-right: 3%;
-    letter-spacing: 9px;
+    letter-spacing: 8px;
     margin-top: -28%;
-    font-size: 62px;
+    font-size: 4rem;
     margin-bottom: 8%;
   }
   .glow {
     position: relative;
-    left: -11%;
+    left: auto;
     font-size: 36px;
     top: 30px;
   }
