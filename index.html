@@ -19,17 +19,20 @@
 
 				<!-- Header -->
 					<header id="header">
-								<nav>
-									<a style="text-decoration:none" href="#">Home</a>
-									<a style="text-decoration:none" href="#">About Me</a>
-									<a style="text-decoration:none" href="#">Contact</a>
-								</nav>
-
-						<img class="BLJ" src="images\thumbs\watermark.jpg" alt="BLJ"/>
-						
+						<nav>
+							<h1>Menu</h1>
+							<ul>
+								<li><a><img class="BLJ" src="images\thumbs\watermark.jpg" alt="BLJ"/></a></li>
+							  <li><a href="">Home</a></li>
+							  <li><a href="">About Me</a></li>
+							  <li><a href="">Contact</a></li>
+							</ul>
+						  </nav>
+					
+						  
 						<p>Bachelor's degree in Fine Arts with a concentration of photography. <br> 10+ years of experience <br> Extensive equipment and lighting knowledge.</p>
 							<p>For further information</p>
-							<p>E-mail: brecob@yahoo.com</p>
+							<link href="#footer">Contact Me</link>
 						</ul>
 					</header>
 
@@ -49,10 +52,10 @@
 							<a class="thumbnail" href="images/fulls/05.jpg" ><img src="images/thumbs/05.jpg" alt="4" /></a>
 						</article>
 						<article>
-							<a class="thumbnail" href="images/fulls/06.jpg"><img src="images/thumbs/06.jpg" alt="5" /></a>
+							<a class="thumbnail" href="images/fulls/06.jpg"><img src="images/thumbs/06.jpg" alt="5" style="transform: rotate(-90deg)" /></a>
 						</article>
 						<article>
-							<a class="thumbnail" href="images/fulls/07.jpg"><img src="images/thumbs/07.jpg" alt="6" /></a>
+							<a class="thumbnail" href="images/fulls/07.jpg"><img src="images/thumbs/07.jpg" alt="6" style="transform: rotate(-90deg)"/></a>
 						</article>
 						<article>
 							<a class="thumbnail" href="images/fulls/08.jpg"><img src="images/thumbs/08.jpg" alt="7" /></a>
@@ -67,16 +70,16 @@
 							<a class="thumbnail" href="images/fulls/11.jpg"><img src="images/thumbs/11.jpg" alt="10" /></a>
 						</article>
 						<article>
-							<a class="thumbnail" href="images/fulls/12.jpg"><img src="images/thumbs/12.jpg" alt="11" /></a>
+							<a class="thumbnail" href="images/fulls/12.jpg"><img src="images/thumbs/12.jpg" alt="11" style="transform: rotate(-90deg)"/></a>
 						</article>
 						<article>
-							<a class="thumbnail" href="images/fulls/13.JPG"><img src="images/thumbs/13.JPG" alt="12" /></a>
+							<a class="thumbnail" href="images/fulls/13.JPG"><img src="images/thumbs/13.JPG" alt="12" style="transform: rotate(-90deg)"/></a>
 						</article>
 						<article>
-							<a class="thumbnail" href="images/fulls/14.JPG"><img src="images/thumbs/14.JPG" alt="13" /></a>
+							<a class="thumbnail" href="images/fulls/14.JPG"><img src="images/thumbs/14.JPG" alt="13" style="transform: rotate(-90deg)"/></a>
 						</article>
 						<article>
-							<a class="thumbnail" href="images/fulls/15.JPG"><img src="images/thumbs/15.JPG" alt="14" /></a>
+							<a class="thumbnail" href="images/fulls/15.JPG"><img src="images/thumbs/15.JPG" alt="14" style="transform: rotate(-90deg)" /></a>
 						</article>
 						<article>
 							<a class="thumbnail" href="images/fulls/16.JPG"><img src="images/thumbs/16.JPG" alt="15" /></a>
@@ -100,7 +103,7 @@
 							<a class="thumbnail" href="images/fulls/22.JPG"><img src="images/thumbs/22.JPG" alt="21" /></a>
 						</article>
 						<article>
-							<a class="thumbnail" href="images/fulls/23.JPG"><img src="images/thumbs/23.JPG" alt="22" /></a>
+							<a class="thumbnail" href="images/fulls/23.JPG"><img src="images/thumbs/23.JPG" alt="22" style="transform: rotate(-90deg)"/></a>
 
 						</article>
 						<article>
@@ -116,28 +119,78 @@
 
 						</article>
 						<article>
-							<a class="thumbnail" href="images/fulls/27.JPG"><img src="images/thumbs/27.JPG" alt="26" /></a>
+							<a class="thumbnail" href="images/fulls/27.JPG"><img src="images/thumbs/27.JPG" alt="26" style="transform: rotate(-90deg)"/></a>
 
 						</article>
 						<article>
-							<a class="thumbnail" href="images/fulls/28.JPG"><img src="images/thumbs/28.JPG" alt="27" /></a>
+							<a class="thumbnail" href="images/fulls/28.JPG"><img src="images/thumbs/28.JPG" alt="27" style="transform: rotate(-90deg)"/></a>
 
 						</article>
 						<article>
-							<a class="thumbnail" href="images/fulls/29.JPG"><img src="images/thumbs/29.JPG" alt="28" /></a>
+							<a class="thumbnail" href="images/fulls/29.JPG"><img src="images/thumbs/29.JPG" alt="28" style="transform: rotate(-90deg)" /></a>
 						</article>
 						<article>
-							<a class="thumbnail" href="images/fulls/30.JPG"><img src="images/thumbs/30.JPG" alt="29" /></a>
+							<a class="thumbnail" href="images/fulls/30.JPG"><img src="images/thumbs/30.JPG" alt="29" style="transform: rotate(-90deg)" /></a>
 						</article>
 					</section>
 				</div>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<ul class="copyright">
-							<li>&copy; Brooke Johnson</li><li>Design: <a href="http://html5up.net">HTML5 UP</a>.</li>
-						</ul>
-					</footer>
+      <!-- Footer -->
+      <section id="footer">
+        <div class="inner">
+          <h2 id="major" class="major">Get in touch</h2>
+          <p>
+            Interested in a quote? Send me a message!
+          </p>
+          <form method="POST" action="https://formspree.io/xnqbdpyd">
+            <div class="fields">
+              <div class="field">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" />
+              </div>
+              <div class="field">
+                <label for="phoneNumber">Phone Number</label>
+                <input type="text" name="phoneNumber" id="phoneNumber" />
+              </div>
+              <div class="field">
+                <label for="email">Email</label>
+                <input type="email" name="replyTo" id="email" />
+              </div>
+              <div class="field">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" rows="4"></textarea>
+              </div>
+            </div>
+            <ul class="actions">
+              <li>
+                <input
+                  id="send"
+                  name="End of Message. Enjoy your day!"
+                  type="submit"
+                  value="Send Message"
+                />
+              </li>
+            </ul>
+          </form>
+          <div class="icon solid fa-envelope">
+            <br />
+            <a href="mailto:bljphotography.0383@gmail.com"
+              >bljphotography.0383@gmail.com</a
+            >
+          </div>
+          <br />
+          <div class="copyright">
+            <p>&copy; Brooke Johnson</p>
+          </div>
+          <div class="icon brands fa-linkedin">
+            Design:
+            <a href="http://linkedin.com/in/daniel-milano-90088b18a/"
+              >Daniel Milano</a
+            >
+          </div>
+        </div>
+      </section>
+    </div>
 
 			</div>
 
