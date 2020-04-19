@@ -658,6 +658,10 @@ main.init();
 // Header Animation//
 var $orbs = $(".orbs span");
 $(".end-left").css("left", "110%");
+$orbs.velocity(
+  { top: "-300px", scaleX: ".2", scaleY: ".2", color: "#990000" },
+  0
+);
 var orb = 0;
 var numOrbs = $orbs.length;
 
@@ -683,11 +687,7 @@ $("#play-jquery").on("click", function () {
   withAnimate();
 });
 
-withVelo = function () {
-  $("orbs").velocity(
-    { top: "-300px", scaleX: ".2", scaleY: ".2", color: "#990000" },
-    0
-  );
+function withVelocity() {
   $(".end-left").velocity({ left: "auto", top: "35%" }, "easeOutExpo", 1200);
   $(".orbs span").velocity(
     { top: "-300px", scaleX: ".2", scaleY: ".2", color: "#990000" },
@@ -704,12 +704,12 @@ withVelo = function () {
       $(".glow").velocity({ opacity: 1 }, 1200);
     }, 1200);
   }
-};
+}
 
 $("#play-velocity").on("click", function () {
   withVelocity();
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-  withVelo();
+  withVelocity();
 });
