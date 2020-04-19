@@ -1423,6 +1423,7 @@ body.is-preload-2 #viewer .slide {
 .BLJ {
   width: 41%;
   border-radius: 100px;
+  margin-top: 4rem;
 }
 
 .Photo {
@@ -1556,7 +1557,7 @@ span {
   -webkit-text-fill-color: transparent;
   /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: orange;
+  -webkit-text-stroke-color: #08b6ce;
   font-size: 64px;
   font-family: "Arvo", serif;
 }
@@ -1585,8 +1586,8 @@ span {
   display: inline-block;
   text-align: center;
   border-radius: 50%;
-  text-shadow: 0 0 20px orange, 1px 1px 20px orange, 2px 2px 20px orange,
-    -1px -1px 20px orange, -2px -2px 20px orange;
+  text-shadow: 0 0 20px #08b6ce, 1px 1px 20px #08b6ce, 2px 2px 20px #08b6ce,
+    -1px -1px 20px #08b6ce, -2px -2px 20px #08b6ce;
   position: absolute;
   left: 40%;
 }
@@ -1601,7 +1602,7 @@ span {
   opacity: 0;
   font-family: "Arvo", serif;
   font-weight: 300;
-  color: orange;
+  color: #08b6ce;
 
   font-size: 105px;
   /* position: absolute;
