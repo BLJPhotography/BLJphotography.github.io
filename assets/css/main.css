@@ -251,7 +251,7 @@ a {
 
 a:hover {
   border-bottom-color: transparent;
-  color: #101010;
+  color: hsl(172, 80%, 23%);
 }
 
 strong,
@@ -1536,7 +1536,7 @@ nav ul li a:hover {
   }
 }
 
-/* Compiled scss */
+/* Compiled scss for animation */
 * {
   box-sizing: border-box;
 }
@@ -1561,6 +1561,7 @@ span {
   font-size: 64px;
   font-family: "Arvo", serif;
 }
+
 .end-right {
   margin-right: -117.5px;
 }
@@ -1661,11 +1662,12 @@ span {
   }
   .orbs {
     font-family: "Raleway", sans-serif;
-    font-weight: 300;
+    font-weight: 100;
     display: block;
-    font-size: 77px;
-    background-color: #101010;
-    padding-right: 4%;
+    margin-right: -103%;
+    letter-spacing: 12px;
+    margin-top: -33%;
+    font-size: 44px;
   }
   .glow {
     display: none;
@@ -1698,7 +1700,6 @@ span {
     font-family: "Raleway", sans-serif;
     font-weight: 100;
     display: block;
-    margin-right: 6%;
     letter-spacing: 8px;
     margin-top: -28%;
     font-size: 4rem;
@@ -1746,4 +1747,8 @@ span {
 }
 .ion {
   margin-right: 5px;
+}
+
+.quote {
+  text-align: center;
 }

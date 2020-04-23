@@ -688,6 +688,11 @@ $("#play-jquery").on("click", function () {
 });
 
 function withVelocity() {
+  $(".end-left-about").velocity(
+    { left: "auto", top: "35%" },
+    "easeOutExpo",
+    1200
+  );
   $(".end-left").velocity({ left: "auto", top: "35%" }, "easeOutExpo", 1200);
   $(".orbs span").velocity(
     { top: "-300px", scaleX: ".2", scaleY: ".2", color: "blue" },
