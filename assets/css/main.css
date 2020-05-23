@@ -1481,7 +1481,7 @@ li {
 
 nav {
   background-color: #101010;
-  margin-top: 40px;
+  margin-top: 75px;
 }
 nav h1 {
   display: none;
@@ -1621,7 +1621,7 @@ span {
     display: block;
     font-size: 77px;
     background-color: #101010;
-    padding-right: 7%;
+    text-align: center;
   }
   .glow {
     left: 76%;
@@ -1638,10 +1638,11 @@ span {
     font-family: "Raleway", sans-serif;
     font-weight: 100;
     display: block;
-    margin-right: -92%;
+    margin-right: 0;
+    margin-top: -100px;
     letter-spacing: 12px;
-    margin-top: -33%;
-    font-size: 44px;
+    font-size: 40px;
+    text-align: center;
   }
   .glow {
     display: none;
@@ -1667,6 +1668,7 @@ span {
     letter-spacing: 12px;
     margin-top: -33%;
     font-size: 44px;
+    text-align: center;
   }
   .glow {
     display: none;
@@ -1684,9 +1686,7 @@ span {
     font-size: 40px;
     letter-spacing: 12px;
     background-color: #101010;
-    padding-right: 4%;
-    margin-left: 80%;
-    margin-top: 23px;
+    text-align: center;
   }
   .glow {
     font-size: 36px;
@@ -1703,6 +1703,7 @@ span {
     margin-top: -28%;
     font-size: 4rem;
     margin-bottom: 8%;
+    text-align: center;
   }
   .glow {
     position: relative;
