@@ -718,3 +718,16 @@ $("#play-velocity").on("click", function () {
 document.addEventListener("DOMContentLoaded", function () {
   withVelocity();
 });
+
+// loader
+
+var myVar;
+
+function myFunction() {
+  if (document.readyState === "complete") {
+    document.getElementById("loader").style.display = "none";
+    document.querySelector(".myDiv").style.display = "block";
+  } else {
+    console.log(document.readyState);
+  }
+}
