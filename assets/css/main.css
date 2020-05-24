@@ -1761,3 +1761,10 @@ span {
   display: none;
   text-align: center;
 }
+
+#loader {
+  position: absolute;
+  font-size: large;
+  left: 38%;
+  top: 5%;
+}
