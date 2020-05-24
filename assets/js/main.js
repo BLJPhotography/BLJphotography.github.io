@@ -721,13 +721,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // loader
 
-var myVar;
+// var myVar;
 
-function myFunction() {
-  if (document.readyState === "complete") {
-    document.getElementById("loader").style.display = "none";
-    document.querySelector(".myDiv").style.display = "block";
-  } else {
-    console.log(document.readyState);
-  }
-}
+// function myFunction() {
+//   if (document.readyState === "complete") {
+//     document.getElementById("loader").style.display = "none";
+//     document.querySelector(".myDiv").style.display = "block";
+//   } else {
+//     console.log(document.readyState);
+//   }
+// }
