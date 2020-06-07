@@ -1002,7 +1002,7 @@ body.is-preload-1 #main {
 /* Header */
 
 #header {
-  padding: 3em 2.25em 1.75em 2.25em;
+  /* padding: 3em 2.25em 1.75em 2.25em; */
   background-color: #101010;
 }
 
@@ -1603,7 +1603,6 @@ span {
   font-family: "Arvo", serif;
   font-weight: 300;
   color: #08b6ce;
-
   font-size: 105px;
   /* position: absolute;
   top: 200px;
@@ -1698,12 +1697,12 @@ span {
 
 @media all and (max-width: 480px) {
   .orbs {
+    font-size: 3.5rem;
     font-family: "Raleway", sans-serif;
     font-weight: 100;
     display: block;
     letter-spacing: 8px;
     margin-top: -36%;
-    font-size: 4rem;
     margin-bottom: 8%;
     text-align: center;
   }
