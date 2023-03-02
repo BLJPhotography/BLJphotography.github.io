@@ -1481,7 +1481,6 @@ li {
 
 nav {
   background-color: #101010;
-  margin-top: 75px;
 }
 nav h1 {
   display: none;
@@ -1579,8 +1578,13 @@ span {
   font-family: "Raleway", sans-serif;
   font-weight: 100;
   display: block;
-  font-size: 128px;
+  letter-spacing: 10px;
+  margin-top: -36%;
+  font-size: 3.5rem;
+  padding-bottom: 8%;
+  text-align: center;
 }
+
 .orbs span {
   color: red;
   display: inline-block;
@@ -1648,7 +1652,7 @@ span {
     display: none;
   }
   .BLJ {
-    margin: 4.5rem;
+    margin-top: 20px;
     margin-bottom: 0;
   }
 }
