@@ -693,7 +693,7 @@ function withVelocity() {
     "easeOutExpo",
     1200
   );
-  $(".end-left").velocity({ left: "6rem" }, "easeOutExpo", 1200);
+  $(".end-left").velocity({ left: "1rem", top: "35%", marginRight: "2rem" }, "easeOutExpo", 1200);
   $(".orbs span").velocity(
     { top: "-300px", scaleX: ".2", scaleY: ".2", color: "blue" },
     0

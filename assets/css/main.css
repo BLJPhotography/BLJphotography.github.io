@@ -1657,7 +1657,7 @@ span {
     display: none;
   }
   .BLJ {
-    margin-top: 20px;
+    margin-top: 3rem;
     margin-bottom: 0;
   }
 }
@@ -1706,6 +1706,16 @@ span {
 }
 
 @media all and (max-width: 480px) {
+  .end-left {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .BLJ {
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem!important;
+  }
   .orbs {
     font-size: 3.5rem;
     font-family: "Raleway", sans-serif;
@@ -1721,7 +1731,7 @@ span {
     position: relative;
     left: auto;
     font-size: 36px;
-    top: 30px;
+    top: 0;
   }
 }
 
